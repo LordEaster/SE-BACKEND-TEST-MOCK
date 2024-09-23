@@ -1,0 +1,93 @@
+problems:
+  - name: "Problem 1 (1/3)"
+    input:
+      arr: [ 1, '2a', '3abc', 4, 'def5', 'b6' ]
+    expected_output: "21\n"
+    script: "problems/problem_01.js"
+
+  - name: "Problem 1 (2/3)"
+    input:
+      arr:  [ '1a', 2, 's3', 4, '6fgd', 'imposter' ]
+    expected_output: "16\n"
+    script: "problems/problem_01.js"
+
+  - name: "Problem 1 (3/3)"
+    input:
+      arr:  [ 'a1a', 2, 's3', 9, '6', 'asd' ]
+    expected_output: "21\n"
+    script: "problems/problem_01.js"
+
+  - name: "Problem 2 (1/3)"
+    input:
+      arr: [ 'Bomgay', 'Ohm', 'Smart' ]
+    expected_output: "[ 'Bomgay', 'Smart', 'Ohm' ]\n"
+    script: "problems/problem_02.js"
+
+  - name: "Problem 2 (2/3)"
+    input:
+      arr: [ 'apple', 'cat', 'banana', 'donut', 'egg' ]
+    expected_output: "[ 'apple', 'banana', 'cat', 'donut', 'egg' ]\n"
+    script: "problems/problem_02.js"
+
+  - name: "Problem 2 (3/3)"
+    input:
+      arr: [ 1, 3, 2, 4, 5 ]
+    expected_output: "[ 1, 2, 3, 4, 5 ]\n"
+    script: "problems/problem_02.js"
+
+  - name: "Problem 3 (1/3)"
+    input:
+      alice:  [ 1, 2, 3 ]
+      bob:  [ 7, 1, 3 ]
+    expected_output: "[ 1, 1 ]\n"
+    script: "problems/problem_03.js"
+
+  - name: "Problem 3 (2/3)"
+    input:
+      alice:  [ 1, 2, 3, 1 ]
+      bob:  [ 7, 1, 3, 2 ]
+    expected_output: "[ 1, 2 ]\n"
+    script: "problems/problem_03.js"
+
+  - name: "Problem 3 (3/3)"
+    input:
+      alice:  [ 1, 2, 6, 2, 2 ]
+      bob:  [ 7, 1, 3, 2, 1 ]
+    expected_output: "[ 3, 1 ]\n"
+    script: "problems/problem_03.js"
+
+  - name: "Problem 4 (1/3)"
+    input: 
+      arr:  [ 3, 4, 5, 1, 2 ]
+    expected_output: "6\n"
+    script: "problems/problem_04.js"
+
+  - name: "Problem 4 (2/3)"
+    input: 
+      arr:  [ 15, 23, 11, 29, 30 ]
+    expected_output: "41\n"
+    script: "problems/problem_04.js"
+
+  - name: "Problem 4 (3/3)"
+    input: 
+      arr:  [ 14, 79, 65, 69, 56 ]
+    expected_output: "93\n"
+    script: "problems/problem_04.js"
+
+  - name: "Problem 5 (1/3)"
+    input: 
+      round:  3
+    expected_output: "[ 3, 4, 5, 1, 2 ]\n"
+    script: "problems/problem_05.js"
+
+  - name: "Problem 5 (2/3)"
+    input: 
+      round:  5
+    expected_output: "[ 1, 2, 3, 4, 5 ]\n"
+    script: "problems/problem_05.js"
+
+  - name: "Problem 5 (3/3)"
+    input: 
+      round:  7
+    expected_output: "[ 4, 5, 1, 2, 3 ]\n"
+    script: "problems/problem_05.js"
