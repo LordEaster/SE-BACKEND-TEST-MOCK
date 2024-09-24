@@ -91,3 +91,186 @@ problems:
       round:  7
     expected_output: "[ 4, 5, 1, 2, 3 ]\n"
     script: "problems/problem_05.js"
+
+  - name: "Problem 6 (1/3)"
+    input: 
+      arr:  [ 1, 2, 2, 3, 4, 4, 5 ]
+    expected_output: "[ 1, 2, 3, 4, 5 ]\n"
+    script: "problems/problem_06.js"
+
+  - name: "Problem 6 (2/3)"
+    input: 
+      arr:  [ 1, 1, 1, 1, 1, 1, 1 ]
+    expected_output: "[ 1 ]\n"
+    script: "problems/problem_06.js"
+
+  - name: "Problem 6 (3/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5, 6, 7 ]
+    expected_output: "[ 1, 2, 3, 4, 5, 6, 7 ]\n"
+    script: "problems/problem_06.js"
+
+  - name: "Problem 7 (1/3)"
+    input: 
+      arr:  [ 5, 1, 2, 3, 4 ]
+    expected_output: "3\n"
+    script: "problems/problem_07.js"
+
+  - name: "Problem 7 (2/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5 ]
+    expected_output: "3\n"
+    script: "problems/problem_07.js"
+
+  - name: "Problem 7 (3/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+    expected_output: "5.5\n"
+    script: "problems/problem_07.js"
+
+  - name: "Problem 8 (1/3)"
+    input: 
+      text:  'madam'
+    expected_output: "true\n"
+    script: "problems/problem_08.js"
+
+  - name: "Problem 8 (2/3)"
+    input: 
+      text:  'hello'
+    expected_output: "false\n"
+    script: "problems/problem_08.js"
+
+  - name: "Problem 8 (3/3)"
+    input: 
+      text:  'nurses run'
+    expected_output: "true\n"
+    script: "problems/problem_08.js"
+
+  - name: "Problem 9 (1/3)"
+    input: 
+      arr:  [ 1, 2, 2, 3, 4, 4, 4, 5 ]
+    expected_output: "{ 1: 1, 2: 2, 3: 1, 4: 3, 5: 1 }\n"
+    script: "problems/problem_09.js"
+
+  - name: "Problem 9 (2/3)"
+    input: 
+      arr:  [ 1, 1, 1, 1, 1, 1, 1 ]
+    expected_output: "{ 1: 7 }\n"
+    script: "problems/problem_09.js"
+
+  - name: "Problem 9 (3/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5, 6, 7 ]
+    expected_output: "{ 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1 }\n"
+    script: "problems/problem_09.js"
+
+  - name: "Problem 10 (1/3)"
+    input: 
+      text:  'hello'
+    expected_output: "ehlol\n"
+    script: "problems/problem_10.js"
+
+  - name: "Problem 10 (2/3)"
+    input: 
+      text:  'world'
+    expected_output: "owlrd\n"
+    script: "problems/problem_10.js"
+
+  - name: "Problem 10 (3/3)"
+    input: 
+      text:  'javascript'
+    expected_output: "ajvacsritp\n"
+    script: "problems/problem_10.js"
+    
+  - name: "Problem 11 (1/3)"
+    input: 
+      arr1:  [ 1, 2, 3 ]
+      arr2:  [ 4, 5, 6 ]
+    expected_output: "[ 5, 7, 9 ]\n"
+    script: "problems/problem_11.js"
+
+  - name: "Problem 11 (2/3)"
+    input: 
+      arr1:  [ 1, 2, 3, 4 ]
+      arr2:  [ 5, 6, 7, 8 ]
+    expected_output: "[ 6, 8, 10, 12 ]\n"
+    script: "problems/problem_11.js"
+
+  - name: "Problem 11 (3/3)"
+    input: 
+      arr1:  [ 1, 2, 3, 4, 5 ]
+      arr2:  [ 6, 7, 8, 9, 10 ]
+    expected_output: "[ 7, 9, 11, 13, 15 ]\n"
+    script: "problems/problem_11.js"
+
+  - name: "Problem 12 (1/3)"
+    input: 
+      text:  'hello'
+    expected_output: "{h: 1, e: 1, l: 2, o: 1}\n"
+    script: "problems/problem_12.js"
+
+  - name: "Problem 12 (2/3)"
+    input: 
+      text:  'world'
+    expected_output: "{w: 1, o: 1, r: 1, l: 1, d: 1}\n"
+    script: "problems/problem_12.js"
+
+  - name: "Problem 12 (3/3)"
+    input: 
+      text:  'javascript'
+    expected_output: "{j: 1, a: 2, v: 1, s: 1, c: 1, r: 1, i: 1, p: 1, t: 1}\n"
+    script: "problems/problem_12.js"
+
+  - name: "Problem 13 (1/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5 ]
+    expected_output: "[ 2, 4 ]\n"
+    script: "problems/problem_13.js"
+
+  - name: "Problem 13 (2/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+    expected_output: "[ 2, 4, 6, 8, 10 ]\n"
+    script: "problems/problem_13.js"
+
+  - name: "Problem 13 (3/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+    expected_output: "[ 2, 4, 6, 8, 10, 12, 14 ]\n"
+    script: "problems/problem_13.js"
+
+  - name: "Problem 14 (1/3)"
+    input: 
+      arr:  [ 1, 2, 3, 4, 5 ]
+    expected_output: "true\n"
+    script: "problems/problem_14.js"
+
+  - name: "Problem 14 (2/3)"
+    input: 
+      arr:  [ 5, 4, 3, 2, 1 ]
+    expected_output: "false\n"
+    script: "problems/problem_14.js"
+
+  - name: "Problem 14 (3/3)"
+    input: 
+      arr:  [ 1, 3, 2, 4, 5 ]
+    expected_output: "false\n"
+    script: "problems/problem_14.js"
+
+  - name: "Problem 15 (1/3)"
+    input: 
+      number:  5
+    expected_output: "[ 1, 3, 5, 7, 9 ]\n"
+    script: "problems/problem_15.js"
+
+  - name: "Problem 15 (2/3)"
+    input: 
+      number:  3
+    expected_output: "[ 1, 3, 5 ]\n"
+    script: "problems/problem_15.js"
+
+  - name: "Problem 15 (3/3)"
+    input: 
+      number:  7
+    expected_output: "[ 1, 3, 5, 7, 9, 11, 13 ]\n"
+    script: "problems/problem_15.js"
